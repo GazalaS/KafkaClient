@@ -47,3 +47,12 @@ Kafka Client Subsystem in Java
 ### What is Apache Kafka?
 (https://kafka.apache.org/documentation/#gettingStarted)
 (https://www.slideshare.net/haluanirsad/kafka-as-message-broker-72405616)
+
+### Solution Done
+RESTMessageGenerator to generate random REST commands.
+Producer to publish REST Messages.
+Consumer subscribe to the REST Messages.
+
+- Future Enchanements 
+  - Read Configuration for the config File.
+  - Write Consumer subcribed messages to file.
