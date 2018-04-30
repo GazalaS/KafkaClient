@@ -24,7 +24,7 @@ Kafka Client Subsystem in Java
   - I need to have a plan. (*Note* Can I use the SCRUM training in any way? Task breakdown)
 
 - Exercise assignment. What is it?
-  -  It is to create a Apache Kafka. What is **Apache Kafka?**
+  -  It is to create a Apache Kafka Or use Kafka API. What is **Apache Kafka?**
 
 ----
 ## Apache Kafka Project
@@ -49,10 +49,12 @@ Kafka Client Subsystem in Java
 (https://www.slideshare.net/haluanirsad/kafka-as-message-broker-72405616)
 
 ### Solution Done
-RESTMessageGenerator to generate random REST commands.
-Producer to publish REST Messages.
-Consumer subscribe to the REST Messages.
+Using Apache Kafka API
+- RESTMessageGenerator to generate random REST commands.
+- Producer to publish REST Messages.
+- Consumer subscribe to the REST Messages.
 
 - Future Enchanements 
   - Read Configuration for the config File.
   - Write Consumer subcribed messages to file.
+  - Using STREAM API (https://kafka.apache.org/11/documentation/streams/tutorial)
